@@ -1,0 +1,15 @@
+Gram=y.tab.c y.tab.h
+
+all: $(Gram) 
+	@gcc -o comple y.tab.c lex.yy.c complejo_cal.c
+	@echo Compiled
+
+$(Gram): complejo_cal.y
+	@yacc -d complejo_cal.y
+
+lex.yy.c: complejo_cal.l
+	@flex complejo_cal.l
+
+clean:
+	@rm -f lex.yy.c *.tab.* comple
+	@echo Clean
