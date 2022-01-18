@@ -1,0 +1,23 @@
+rectangulo 20 30 50 60 ;
+line 10 40 45 5 ;
+
+line 80 40 45 5 ;
+rectangulo 37 50 20 30 ;
+
+rectangulo 37 50 20 40 ;
+circulo 5 50 75 ;
+
+circulo 10 100 25 ;
+line 105 35 105 55 ;
+
+line 95 40 115 40 ;
+line 90 65 105 50 ;
+
+line 120 65 105 50 ;
+rectangulo 130 50 70 15 ;
+
+circulo 10 130 65 ;
+circulo 10 180 65 ;
+
+rectangulo 140 40 30 10 ;
+rectangulo 140 40 30 15 ;
